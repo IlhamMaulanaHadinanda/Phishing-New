@@ -288,5 +288,3 @@ def interactive_loop(pipe):
         label, prob = predict_url(pipe, url)
         print(f"  -> Prediksi : {label}")
         print(f"  -> Probabilitas phishing : {prob:.2%}")
-
-
